@@ -1,0 +1,124 @@
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.btn-blue {
+  background-color: #0a516d;
+  color: white;
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+  .btn-blue {
+    font-size: 1em;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+
+  .btn-blue {
+    font-size: 1em;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .btn-blue {
+    font-size: 1em;
+  }
+}
+
+
+body {
+  background-color: #EAEAEA;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(20,20,20);
+  font-size: 15px;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Muli', sans-serif;
+  color: #f77754;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h2 {
+  color: #018790;
+  font-size: 20px;
+}
+
+a {
+  color: #0a516d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2b2726;
+  text-decoration: none;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(248,248,248);
+  padding: 16px;
+  margin: 16px;
+  border-radius: 4px;
+  box-shadow: 0 3px 20px rgb(200,200,200);
+}
+
+.card-social {
+  text-align: center;
+  color: white;
+  background-color: rgba(100,100,100,0.2);
+  padding: 2px;
+  margin: 16px;
+  border-radius: 4px;
+}
+
+.img-round {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid rgb(240,240,240);
+  box-shadow: 0 1px 10px rgb(200,200,200);
+}
+
+.btn-blue:hover {
+  background-color: #2b2726;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-social {
+  font-size: 40px;
+}
